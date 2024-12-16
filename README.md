@@ -1,1 +1,8 @@
 # Automated-Diagnosis-of-Breast-Cancer-Using-Deep-Learning
+
+Automated Diagnosis of Breast Ultrasonography Images Using Deep Neural Networks
+
+
+Breast cancer is the second most common cancer and early, accurate diagnosis is crucial for effective treatment. Traditional diagnostic methods are effort-intensive and rely heavily on the experience of radiologists, leading to varying outcomes. To aid in detection and diagnosis, previous studies have utilised deep learning to perform image segmentation  to determine the location and morphology of tumours and classification to identify malignant tumours. Some multi-task models like ACSNet use Convolutional Neural Networks (CNNs) to perform both segmentation and classification, whereby optimising the segmentation performance also improves classification accuracy. In this study, we improve upon the baseline ACSNet model by developing a two-branch classifier. The first branch utilises ACSNet’s multi-scale feature extraction and channel attention mechanism, while the second branch utilises an off-the-shelf classification model. The modular architecture allows for the second branch to be replaced with various state-of-the-art models such as ResNet50, DenseNet, EfficientNet, and SwinTransformer. Our experiments on the breast ultrasound image (BUSI) dataset show that our proposed architecture outperforms the baseline ACSNet model and that among the off-the-shelf classifiers that we used on our two-branch classifier, EfficientNet returned the best results. 
+
+![image](https://media.github.sydney.edu.au/user/20869/files/a68aa131-7643-424e-8557-292357c7f116)
